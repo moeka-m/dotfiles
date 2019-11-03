@@ -5,9 +5,7 @@ fi
 
 # custom settings
 if [[ -d $HOME/.zsh ]]; then
-    pushd "$HOME/.zsh" > /dev/null
-    for f in *.zsh; do
+    for f in $HOME/.zsh/*.zsh; do
         source "$f"
     done
-    popd > /dev/null
 fi
