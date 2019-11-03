@@ -1,0 +1,19 @@
+# antigen.zshの読み込み
+source ~/.zsh/antigen/antigen.zsh
+
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+antigen bundle lein
+antigen bundle command-not-found
+
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen bundle git
+antigen bundle osx
+antigen bundle brew
+
+# Load the theme.
+antigen theme robbyrussell
+antigen apply
