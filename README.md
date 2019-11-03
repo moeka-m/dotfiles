@@ -7,4 +7,5 @@
 git clone "git@github.com:moeka-m/dotfiles.git" "$HOME/.dotfiles"
 cd .dotfiles
 ./deploy.sh
+source .zshrc
 ```
