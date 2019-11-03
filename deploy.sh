@@ -4,8 +4,7 @@
 
 DOTPATH="$HOME/.dotfiles"
 
-for f in .??*
-do
+for f in .??*; do
     [ "$f" = ".git" ] && continue
     [ "$f" = ".gitignore" ] && continue
 
@@ -13,4 +12,6 @@ do
     # ln -snfv "$DOTPATH/$f" "$HOME"/"$f"
 done
 
-# git clone https://github.com/zsh-users/antigen.git ~/.zsh/antigen/
+if [[ -d $HOME/.zsh/antigen ]]; then
+    git clone https://github.com/zsh-users/antigen.git $HOME/.zsh/antigen
+fi
