@@ -4,8 +4,7 @@
 ## How to use
 
 ```bash
-git clone "git@github.com:moeka-m/dotfiles.git" "$HOME/.dotfiles"
-cd .dotfiles
+git clone "git@github.com:moeka-m/dotfiles.git" "$HOME/.dotfiles" && cd .dotfiles
 ./deploy.sh
-source .zshrc
+cd && source .zshrc
 ```
