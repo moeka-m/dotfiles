@@ -1,0 +1,5 @@
+brew "git"
+brew "ghq"
+brew "go"
+brew "peco"
+brew "zsh"
