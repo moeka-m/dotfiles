@@ -1,3 +1,5 @@
 [user]
 	name = moeka-m
 	email = moeka.dev@gmail.com
+[ghq]
+	root = ~/ghq/src
