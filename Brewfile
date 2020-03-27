@@ -22,3 +22,5 @@ cask 'slack'
 cask 'twist'
 cask 'visual-studio-code'
 cask 'xmind'
+
+mas 'GoodNotes 5', id: 1480793815
