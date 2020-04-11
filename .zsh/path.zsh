@@ -10,5 +10,8 @@
 export GOPATH="$HOME/ghq"
 export PATH="$PATH:$GOPATH/bin"
 
+# node.js
+export PATH="$PATH:$HOME/.nodebrew/current/bin"
+
 # brew
 export HOMEBREW_BUNDLE_FILE="$HOME/.dotfiles/Brewfile"
