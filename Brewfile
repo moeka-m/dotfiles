@@ -1,3 +1,6 @@
+tap 'weaveworks/tap'
+brew 'eksctl'
+
 brew 'curl'
 brew 'ghq'
 brew 'git'
