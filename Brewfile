@@ -22,9 +22,9 @@ cask 'google-chrome'
 cask 'iterm2'
 cask 'kindle'
 cask 'slack'
-cask 'twist'
 cask 'visual-studio-code'
 cask 'xmind'
 cask 'virtualbox'
+cask 'deepl'
 
 mas 'GoodNotes 5', id: 1480793815
