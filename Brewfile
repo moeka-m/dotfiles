@@ -13,6 +13,8 @@ brew 'tig'
 brew 'tree'
 brew 'zsh'
 brew 'anyenv'
+brew 'pipenv'
+brew 'exercism'
 
 cask '1password'
 cask 'alfred'
