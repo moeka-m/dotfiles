@@ -28,5 +28,6 @@ cask 'visual-studio-code'
 cask 'xmind'
 cask 'virtualbox'
 cask 'deepl'
+cask 'notion'
 
 mas 'GoodNotes 5', id: 1480793815
