@@ -1,5 +1,6 @@
 # ghe
 alias gh='cd $(ghq list -p | peco)'
+alias gbm='c=$(git rev-parse --abbrev-ref HEAD) && gco develop && gl && gco $c && gl origin develop'
 
 # shell
 alias relogin='exec $SHELL -l'

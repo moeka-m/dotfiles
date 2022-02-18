@@ -13,3 +13,13 @@ peco-select-history() {
     zle clear-screen
 }
 zle -N peco-select-history
+
+peco-git-checkout() {
+  local res=$(git branch -a | sed 's/^\*/ /' | awk '{ print $1 }' | peco)
+  if [ -n "$res" ]; then
+    BUFFER+="gco $res"
+    CURSOR=$#BUFFER
+  fi
+  zle clear-screen
+}
+zle -N peco-git-checkout

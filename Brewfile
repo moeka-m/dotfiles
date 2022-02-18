@@ -15,6 +15,7 @@ brew 'zsh'
 brew 'anyenv'
 brew 'pipenv'
 brew 'exercism'
+brew 'yarn'
 
 cask '1password'
 cask 'alfred'
