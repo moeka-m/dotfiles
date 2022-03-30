@@ -23,3 +23,14 @@ peco-git-checkout() {
   zle clear-screen
 }
 zle -N peco-git-checkout
+
+# gitアカウント切り替え
+function gitmain() {
+  git config --global user.name "moeka-m"
+  git config --global user.email "moeka.dev@gmail.com"
+}
+
+function gitsub() {
+  git config --global user.name "m-moeka"
+  git config --global user.email "m.moeka.ascend@gmail.com"
+}
